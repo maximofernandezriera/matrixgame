@@ -2,7 +2,7 @@
 
 ---
 
-3. Dado un tablero de 2 x N, y se pide cubrir completamente el tablero con las siguientes formas:
+2. Dado un tablero de 2 x N, y se pide cubrir completamente el tablero con las siguientes formas:
 
 * Dominós, o rectángulos de 2 x 1\.  
 * Trominós, o formas de L.
