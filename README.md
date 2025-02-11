@@ -1,18 +1,13 @@
-Estás escribiendo una IA para un juego de mapa 2D. Estás en algún lugar de una cuadrícula 2D, y hay monedas esparcidas por el mapa.
+1. Una chica camina por un huerto de manzanos con una bolsa en cada mano. Le gusta recoger manzanas de cada árbol a medida que avanza, pero es meticulosa en no poner diferentes tipos de manzanas en la misma bolsa. Dado un input que describe los tipos de manzanas que encontrará en su camino, en orden, determina la longitud del tramo más largo de su camino que contenga solo dos tipos de árboles de manzanas. Por ejemplo, con el input [2, 1, 2, 3, 3, 1, 3, 5], el tramo más largo será de tipos 1 y 3, con una longitud de cuatro. No olvidéis el programa principal.
 
-Dada la posición de todas las monedas y tu posición actual, encuentra la moneda más cercana a ti en términos de distancia de Manhattan. Es decir, puedes moverte hacia arriba, abajo, izquierda y derecha, pero no en diagonal. Si hay varias monedas más cercanas posibles, devuelve cualquiera de ellas.
+2. Dado un tablero de 2 x N, y se te pide cubrir completamente el tablero con las siguientes formas:
 
-Por ejemplo, dado el siguiente mapa, donde tú eres x, las monedas son o y los espacios vacíos son . (arriba a la izquierda es 0, 0):
-```
----------------------
+* Dominós, o rectángulos de 2 x 1\.  
+* Trominós, o formas de L.
 
-| . | . | x | . | o |
----------------------
-| o | . | . | . | . |
----------------------
-| o | . | . | . | o |
----------------------
-| . | . | o | . | . |
----------------------
-```
-devuelve (0, 4), ya que esa moneda es la más cercana. Este mapa estaría 
+Por ejemplo, si N \= 4, aquí hay una posible configuración, donde A es un dominó, y B y C son trominós.
+
+`A B B C`  
+`A B C C`
+
+Dado un entero N, determina de cuántas maneras es posible realizar esta tarea. No olvidéis el programa principal.
